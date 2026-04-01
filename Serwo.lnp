@@ -1,0 +1,14 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\keyboard.o"
+".\led.o"
+".\main.o"
+".\timer_interrupts.o"
+".\serwo.o"
+".\uart.o"
+".\command_decoder.o"
+".\string.o"
+--strict --scatter ".\Serwo.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Serwo.map" -o .\Serwo.axf

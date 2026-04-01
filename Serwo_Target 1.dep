@@ -1,0 +1,37 @@
+Dependencies for Project 'Serwo', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x6965728E)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\keyboard.h)(0x6965728E)()
+F (.\led.h)(0x69CA9D8A)()
+F (.\timer_interrupts.h)(0x6965728E)()
+F (.\keyboard.c)(0x6965728E)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\keyboard.o --omf_browse .\keyboard.crf --depend .\keyboard.d)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.H)(0x51C80D9C)
+I (C:\Users\Dell\Desktop\PPSW-master\archive\Serwo\keyboard.h)(0x6965728E)
+F (.\led.c)(0x6965728E)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\led.o --omf_browse .\led.crf --depend .\led.d)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.H)(0x51C80D9C)
+I (C:\Users\Dell\Desktop\PPSW-master\archive\Serwo\led.h)(0x69CA9D8A)
+F (.\main.c)(0x69CBFC21)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (C:\Users\Dell\Desktop\PPSW-master\archive\Serwo\uart.h)(0x69CBA4A7)
+I (C:\Users\Dell\Desktop\PPSW-master\archive\Serwo\string.h)(0x69CBAA02)
+I (C:\Users\Dell\Desktop\PPSW-master\archive\Serwo\timer_interrupts.h)(0x6965728E)
+I (C:\Users\Dell\Desktop\PPSW-master\archive\Serwo\command_decoder.h)(0x69CBEA50)
+F (.\timer_interrupts.c)(0x69CBD151)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\timer_interrupts.o --omf_browse .\timer_interrupts.crf --depend .\timer_interrupts.d)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.H)(0x51C80D9C)
+I (C:\Users\Dell\Desktop\PPSW-master\archive\Serwo\led.h)(0x69CA9D8A)
+F (.\serwo.c)(0x69CBCFF0)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\serwo.o --omf_browse .\serwo.crf --depend .\serwo.d)
+I (C:\Users\Dell\Desktop\PPSW-master\archive\Serwo\led.h)(0x69CA9D8A)
+I (C:\Users\Dell\Desktop\PPSW-master\archive\Serwo\keyboard.h)(0x6965728E)
+I (C:\Users\Dell\Desktop\PPSW-master\archive\Serwo\timer_interrupts.h)(0x6965728E)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.H)(0x51C80D9C)
+I (C:\Users\Dell\Desktop\PPSW-master\archive\Serwo\serwo.h)(0x69CAD202)
+F (.\serwo.h)(0x69CAD202)()
+F (.\uart.c)(0x69CBF914)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\uart.o --omf_browse .\uart.crf --depend .\uart.d)
+I (C:\Keil\ARM\Inc\Philips\LPC210X.H)(0x51C80D9C)
+I (C:\Users\Dell\Desktop\PPSW-master\archive\Serwo\string.h)(0x69CBAA02)
+F (.\uart.h)(0x69CBA4A7)()
+F (.\command_decoder.c)(0x69CBEABB)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\command_decoder.o --omf_browse .\command_decoder.crf --depend .\command_decoder.d)
+I (C:\Users\Dell\Desktop\PPSW-master\archive\Serwo\string.h)(0x69CBAA02)
+I (C:\Users\Dell\Desktop\PPSW-master\archive\Serwo\command_decoder.h)(0x69CBEA50)
+F (.\string.c)(0x69CBF0CB)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\string.o --omf_browse .\string.crf --depend .\string.d)
+I (C:\Users\Dell\Desktop\PPSW-master\archive\Serwo\string.h)(0x69CBAA02)
+F (.\string.h)(0x69CBAA02)()
+F (.\command_decoder.h)(0x69CBEA50)()
